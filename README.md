@@ -1,6 +1,6 @@
 # LangGraph-OmniPotent
 
-A powerful framework for building and orchestrating LangGraph applications, with a strong focus on Retrieval-Augmented Generation (RAG) agents.
+A powerful framework for building and orchestrating LangGraph applications, with a strong focus on AgenticAI.
 
 ## Overview
 LangGraph-OmniPotent is a framework designed for building and orchestrating applications using LangGraph, enabling the creation of sophisticated agents for various tasks, including data enrichment and RAG-based question answering. It provides a unified graph structure to create complex workflows where specialized agents work together through defined steps such as gathering requirements, drafting solutions, performing checks, and undergoing critique. This allows for the development of agents that can perform open-ended research, retrieve relevant information, and produce structured results, enhancing language processing and reasoning capabilities. The framework includes specific components for indexing and retrieval, making it easier to build advanced RAG applications. The project is under active development, with ongoing efforts to expand model support and enhance retrieval mechanisms.
