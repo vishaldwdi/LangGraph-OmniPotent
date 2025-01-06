@@ -1,0 +1,17 @@
+{
+  "python_version": "3.11",
+  "dockerfile_lines": [],
+  "dependencies": [
+    "."
+  ],
+    "graphs": {
+      "engineer": "./src/engineer_agent/agent.py:graph",
+      "enrichment agent": "./src/enrichment_agent/graph.py:graph",
+      "indexer": "./src/rag_agents/index_graph/graph.py:graph",
+      "retrieval_graph": "./src/rag_agents/retrieval_graph/graph.py:graph"
+    },
+  "env": [
+    "ANTHROPIC_API_KEY",
+    "OPENAI_API_KEY"
+  ]
+}
