@@ -70,15 +70,15 @@ To get started with the RAG agents, you'll need to set up a vector store. `langg
 
 #### Elasticsearch
 
-Follow the instructions in the `langchain-ai/rag-research-agent-template` repository's README to set up Elasticsearch, either on Elastic Cloud or locally using Docker. Ensure you have the `ELASTICSEARCH_URL` and `ELASTICSEARCH_API_KEY` configured in your `.env` file.
+Follow the instructions in the repository's README to set up Elasticsearch, either on Elastic Cloud or locally using Docker. Ensure you have the `ELASTICSEARCH_URL` and `ELASTICSEARCH_API_KEY` configured in your `.env` file.
 
 #### MongoDB Atlas
 
-Follow the instructions in the `langchain-ai/rag-research-agent-template` repository's README to set up a free MongoDB Atlas cluster and create a vector search index. Ensure you have the `MONGODB_URI` configured in your `.env` file.
+Follow the instructions in the repository's README to set up a free MongoDB Atlas cluster and create a vector search index. Ensure you have the `MONGODB_URI` configured in your `.env` file.
 
 #### Pinecone Serverless
 
-Follow the instructions in the `langchain-ai/rag-research-agent-template` repository's README to sign up for a Pinecone account, create a serverless index, and obtain your API key and index name. Ensure you have the `PINECONE_API_KEY` and `PINECONE_INDEX_NAME` configured in your `.env` file.
+Follow the instructions in the repository's README to sign up for a Pinecone account, create a serverless index, and obtain your API key and index name. Ensure you have the `PINECONE_API_KEY` and `PINECONE_INDEX_NAME` configured in your `.env` file.
 
 You'll also need to set up your preferred language and embedding models. The following environment variables can be configured in your `.env` file:
 
