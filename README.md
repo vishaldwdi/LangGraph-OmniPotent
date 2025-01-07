@@ -116,7 +116,6 @@ You can customize and extend the functionality of `langgraph-omnipotent` in seve
         *   `researcher_graph`: Contains the code for the researcher subgraph, which generates search queries based on a research plan and retrieves relevant documents.
 *   `src/shared_retrieval`: Provides reusable components for connecting to different retrieval systems like Elasticsearch, MongoDB Atlas, and Pinecone.
 *   `src/shared_utils`: Contains utility functions used across the project, including model loading functionalities.
-*   `unified_tests`: Holds integration tests that verify the interaction between different components.
 
 ## Usage
 
