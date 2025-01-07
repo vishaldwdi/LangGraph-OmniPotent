@@ -46,7 +46,7 @@ Install the dependencies and Launch in browser:
 pip install -e . && langgraph dev
 ```
 
-This will launch a local LangGraph Server locally with LangGraph Studio through Web.
+This will launch a LangGraph Server locally with LangGraph Studio through Web in your browser.
 
 To explore the data enrichment capabilities, consider a research topic and desired extraction schema. For example, you might want to research:
 
