@@ -40,21 +40,13 @@ git clone <repository_url>
 cd langgraph-omnipotent
 ```
 
-Create a virtual environment (recommended):
+Install the dependencies and Launch in browser:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Linux/macOS
-venv\Scripts\activate  # On Windows
+pip install -e . && langgraph dev
 ```
 
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-You can also try running this code locally with LangGraph Studio.
+This will launch a local LangGraph Server locally with LangGraph Studio through Web.
 
 To explore the data enrichment capabilities, consider a research topic and desired extraction schema. For example, you might want to research:
 
