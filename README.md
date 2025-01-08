@@ -1,9 +1,9 @@
-# LangGraph-OmniPotent
+# LangGraph OmniPotent
 
 A powerful framework for building and orchestrating LangGraph applications, with a strong focus on AgenticAI.
 
 ## Overview
-LangGraph-OmniPotent is a framework designed for building and orchestrating applications using LangGraph, enabling the creation of sophisticated agents for various tasks, including data enrichment and RAG-based question answering. It provides a unified graph structure to create complex workflows where specialized agents work together through defined steps such as gathering requirements, drafting solutions, performing checks, and undergoing critique. This allows for the development of agents that can perform open-ended research, retrieve relevant information, and produce structured results, enhancing language processing and reasoning capabilities. The framework includes specific components for indexing and retrieval, making it easier to build advanced RAG applications. The project is under active development, with ongoing efforts to expand model support and enhance retrieval mechanisms.
+LangGraph OmniPotent is a (beta) framework designed for building and orchestrating applications using LangGraph, enabling the creation of sophisticated agents for various tasks, including data enrichment and RAG-based question answering. It provides a unified graph structure to create complex workflows where specialized agents work together through defined steps such as gathering requirements, drafting solutions, performing checks, and undergoing critique. This allows for the development of agents that can perform open-ended research, retrieve relevant information, and produce structured results, enhancing language processing and reasoning capabilities. The framework includes specific components for indexing and retrieval, making it easier to build advanced RAG applications. The project is under active development, with ongoing efforts to expand model support and enhance retrieval mechanisms.
 
 ## Features
 - Integrated Engineer Agent: Capabilities for code generation and modification.
@@ -108,7 +108,7 @@ You can customize and extend the functionality of `langgraph-omnipotent` in seve
 
 ## Project Structure
 
-*   `src/engineer-agent`: Contains the code for the engineer agent, responsible for tasks like code generation and modification.
+*   `src/engineer-agent`: Contains the code for the engineering agent, responsible for tasks like code generation and modification.
 *   `src/enrichment_agent`: Contains the code for the enrichment agent, focused on enhancing data or information by performing web research and structuring the results.
 *   `src/rag_agents`: Includes implementations for Retrieval-Augmented Generation (RAG) agents, showcasing how to integrate retrieval mechanisms into agent workflows.
     *   `index_graph`: Contains the code for the indexing graph, responsible for indexing documents into the vector store.
@@ -119,13 +119,11 @@ You can customize and extend the functionality of `langgraph-omnipotent` in seve
 
 ## Usage
 
-Detailed usage instructions and examples will be provided in the documentation.
-
-To use the RAG agents, you can start by indexing documents using the `index_graph` in LangGraph Studio. Then, use the `retrieval_graph` to ask questions and receive answers based on the indexed documents.
+Detailed usage instructions and examples will be provided in the documentation. To use the RAG agents, you can start by indexing documents using the `index_graph` in LangGraph Studio. Then, use the `retrieval_graph` to ask questions and receive answers based on the indexed documents.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+The project is in beta release. Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
