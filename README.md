@@ -123,7 +123,7 @@ Detailed usage instructions and examples will be provided in the documentation. 
 
 ## Contributing
 
-The project is in beta release. Contributions are welcome! Please follow these steps:
+The project is in beta. Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
