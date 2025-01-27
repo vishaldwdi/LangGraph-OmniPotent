@@ -140,8 +140,6 @@ This framework is inspired by and builds upon the following open-source projects
 - [data-enrichment](https://github.com/langchain-ai/data-enrichment) 
 - [rag-research-agent-template](https://github.com/langchain-ai/rag-research-agent-template/tree/main)
 
-This entire framework was developed in just 3 days with the assistance of AI coding models, demonstrating the power of human-AI collaboration in software development.
-
 ## License
 
 Although the project is listed under Apache 2.0 License, yet if you find this project helpful in your cause, then I'd appreciate if you happen to have a Job Offer. 
